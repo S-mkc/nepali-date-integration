@@ -26,7 +26,51 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/nepali_date/css/nepali_date.css"
+app_include_css = ["/assets/nepali_date/css/calender.css",
+                   "/assets/nepali_date/css/date.css"]
 # app_include_js = "/assets/nepali_date/js/nepali_date.js"
+app_include_js = [
+    "/assets/nepali_date/js/bs_module.js",
+    # "/assets/migration/js/report_filter.js",
+    # "/assets/nepali_date/js/nepali_override.js",
+    "/assets/nepali_date/js/nepali_override_with_sticktext.js",
+    "/assets/nepali_date/js/nepali_formatter.js",
+    # "/assets/nepali_date/js/print_override.js"
+    "/assets/nepali_date/js/datetime_override.js", # Datetime override
+    "/assets/nepali_date/js/datetime_formatter.js"
+]
+boot_session = ["nepali_date.boot.get_boot_info"]
+
+# In hooks.py
+override_whitelisted_methods = {
+    "frappe.format_value": "nepali_date.date.format_value"
+}
+jinja = {
+    "methods": ["nepali_date.date.format_value"]
+}
+
+# Override ERPNext reports (e.g., Monthly Purchase Register)
+# override_whitelisted_methods = {
+#     "frappe.desk.reportview.get": "nepali_date.report.monthly_purchase_register.get_report_data"
+# }
+# Register custom Jinja2 filters
+# hooks.py
+
+# jinja = {
+#     "methods": [
+#         "nepali_date.utils.convert_ad_to_bs"
+#     ]
+# }
+
+# jinja = {
+#     "methods": [
+#         "nepali_date.overrides.jinja.inject_bs_formatter"
+#     ]
+# }
+jenv = {
+    "methods": ["nepali_date.utils.nepali_date.ad_to_bs_string"]
+}
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/nepali_date/css/nepali_date.css"
@@ -44,6 +88,8 @@ app_license = "mit"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"User": "public/js/nepali_override.js",
+              "Purchase Invoice": "public/js/utils.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -83,6 +129,7 @@ app_license = "mit"
 # ------------
 
 # before_install = "nepali_date.install.before_install"
+after_install = "nepali_date.custom_field.create_custom_fields"
 # after_install = "nepali_date.install.after_install"
 
 # Uninstallation
