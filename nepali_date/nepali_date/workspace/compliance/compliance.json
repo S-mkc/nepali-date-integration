@@ -1,0 +1,293 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"enlmgJ6UTR\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Settings</span>\",\"col\":12}},{\"id\":\"wd4Tqq0d9O\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Nepal Compliance Settings\",\"col\":3}},{\"id\":\"3uy6FN4wen\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CBMS Settings\",\"col\":3}},{\"id\":\"rJBO7dDp21\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZuwkaBvFOu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reports and Maters</span>\",\"col\":12}},{\"id\":\"Qh8aqPErbZ\",\"type\":\"card\",\"data\":{\"card_name\":\"Purchase Reports\",\"col\":4}},{\"id\":\"zfLF4tMWqF\",\"type\":\"card\",\"data\":{\"card_name\":\"Sales Report\",\"col\":4}},{\"id\":\"DCL5N030DP\",\"type\":\"card\",\"data\":{\"card_name\":\"Other Reports\",\"col\":4}},{\"id\":\"WirSCnQURe\",\"type\":\"card\",\"data\":{\"card_name\":\"Audit Reports\",\"col\":4}},{\"id\":\"aHBp8dnf-y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Audit Log\",\"col\":3}}]",
+ "creation": "2025-05-13 10:40:24.812301",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "/assets/nepali_date/icon/Yarsa Color Logo.svg",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Compliance",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Audit Reports",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Audit Trail",
+   "link_count": 0,
+   "link_to": "Audit Trail",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Audit Log",
+   "link_count": 0,
+   "link_to": "Audit Log",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Version",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Accounts Payable",
+   "link_count": 0,
+   "link_to": "Accounts Payable",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Purchase Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Nepal Compliance Settings",
+   "link_count": 0,
+   "link_to": "Nepal Compliance Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "organizational-chart",
+   "link_count": 0,
+   "link_to": "organizational-chart",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Other Reports",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Materialized Report",
+   "link_count": 0,
+   "link_to": "Materialized Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Version",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Balance Confirmation",
+   "link_count": 0,
+   "link_to": "Balance Confirmation",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vat Return Report",
+   "link_count": 0,
+   "link_to": "Vat Return Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Sales Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Cancellation Register",
+   "link_count": 0,
+   "link_to": "Sales Cancellation Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Sales Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Report",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Vat Register",
+   "link_count": 0,
+   "link_to": "Sales Vat Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Sales Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Return Vat Register",
+   "link_count": 0,
+   "link_to": "Sales Return Vat Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Party Wise Sales Register",
+   "link_count": 0,
+   "link_to": "Party Wise Sales Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Sales Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Monthly Sales Register",
+   "link_count": 0,
+   "link_to": "Monthly Sales Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Cancellation Register",
+   "link_count": 0,
+   "link_to": "Sales Cancellation Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Sales Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Reports",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Purchase Vat Register",
+   "link_count": 0,
+   "link_to": "Purchase Vat Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Purchase Return Vat Register",
+   "link_count": 0,
+   "link_to": "Purchase Return Vat Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Party Wise Purchase Register",
+   "link_count": 0,
+   "link_to": "Party Wise Purchase Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Monthly Purchase Register",
+   "link_count": 0,
+   "link_to": "Monthly Purchase Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Landing Cost Voucher",
+   "link_count": 0,
+   "link_to": "Landing Cost Voucher",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-05-14 16:22:30.539915",
+ "modified_by": "Administrator",
+ "module": "Nepali Date",
+ "name": "Compliance",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Academics User"
+  },
+  {
+   "role": "Accounts User"
+  }
+ ],
+ "sequence_id": 18.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Nepal Compliance Settings",
+   "link_to": "Nepal Compliance Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Audit Log",
+   "link_to": "Audit Log",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "CBMS Settings",
+   "link_to": "CBMS Settings",
+   "type": "DocType"
+  }
+ ],
+ "title": "Compliance"
+}

@@ -30,3 +30,13 @@
     content: "\00a0";
     padding-right: 5px;
 }
+
+/* Optional — force icon colors if needed */
+[data-theme="light"] .sidebar-item-icon object {
+    color: black;
+  }
+  
+  [data-theme="dark"] .sidebar-item-icon object {
+    color: white;
+  }
+  

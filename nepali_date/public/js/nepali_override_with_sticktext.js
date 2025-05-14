@@ -116,7 +116,7 @@ function extend_with_bs_date_picker() {
 
         set_formatted_input(value) {
             if (!value) return;
-
+            
             try {
                 const bs_date = NepaliFunctions.AD2BS(value, "YYYY-MM-DD", "YYYY-MM-DD");
                 this.$input?.val(bs_date);

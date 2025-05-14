@@ -1,0 +1,97 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"8mHJeumLw2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Nepal Compliance</span>\",\"col\":12}},{\"id\":\"13nMaI3cKi\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"XVdKJzKsTn\",\"type\":\"card\",\"data\":{\"card_name\":\"Doctypes\",\"col\":4}},{\"id\":\"Ix4sUXa9z9\",\"type\":\"card\",\"data\":{\"card_name\":\"Report\",\"col\":4}},{\"id\":\"GahiFlcsNy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monthly Purchase Register\",\"col\":3}}]",
+ "creation": "2025-05-14 13:39:55.570746",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "/assets/nepali_date/icon/Yarsa Color Logo.svg",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Nepal Compliance",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Doctypes",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Account",
+   "link_count": 0,
+   "link_to": "Account",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Register",
+   "link_count": 0,
+   "link_to": "Purchase Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Purchase Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Report",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payable",
+   "link_count": 0,
+   "link_to": "Accounts Payable",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Purchase Invoice",
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-05-14 14:14:10.190402",
+ "modified_by": "Administrator",
+ "module": "Nepali Date",
+ "name": "Nepal Compliance",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 34.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Monthly Purchase Register",
+   "link_to": "Monthly Purchase Register",
+   "type": "Report"
+  }
+ ],
+ "title": "Nepal Compliance"
+}

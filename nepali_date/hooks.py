@@ -23,6 +23,7 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
+# app_logo_url = "/assets/nepali_date/icon/yarsa logo.jpg"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/nepali_date/css/nepali_date.css"
@@ -37,13 +38,16 @@ app_include_js = [
     "/assets/nepali_date/js/nepali_formatter.js",
     # "/assets/nepali_date/js/print_override.js"
     "/assets/nepali_date/js/datetime_override.js", # Datetime override
-    "/assets/nepali_date/js/datetime_formatter.js"
+    "/assets/nepali_date/js/datetime_formatter.js",
+    "/assets/nepali_date/js/icon_patch.js"
 ]
 boot_session = ["nepali_date.boot.get_boot_info"]
-
 # In hooks.py
 override_whitelisted_methods = {
     "frappe.format_value": "nepali_date.date.format_value"
+}
+override_doctype_class = {
+    "Salary Slip": "nepali_date.utils.CustomSalarySlip"
 }
 jinja = {
     "methods": ["nepali_date.date.format_value"]
@@ -88,7 +92,7 @@ jenv = {
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
-doctype_js = {"User": "public/js/nepali_override.js",
+doctype_js = {
               "Purchase Invoice": "public/js/utils.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
@@ -98,7 +102,6 @@ doctype_js = {"User": "public/js/nepali_override.js",
 # ------------------
 # include app icons in desk
 # app_include_icons = "nepali_date/public/icons.svg"
-
 # Home Pages
 # ----------
 
@@ -289,3 +292,4 @@ after_install = "nepali_date.custom_field.create_custom_fields"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = ["Workspace"]
